@@ -48,6 +48,7 @@ body {
 .silk-img {
     max-width: 10rem;
     height: auto;
+    object-fit: cover;
 }
 
 .nav-icons {
