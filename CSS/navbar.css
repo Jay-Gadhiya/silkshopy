@@ -78,3 +78,33 @@
   border: none;
   color: #696b79;
 }
+
+@media screen and (max-width : 820px) {
+  .nav-input-box {
+      display: none;
+  }
+
+  .nav-shopy {
+      justify-content: space-between;
+      font-family: 'Roboto', sans-serif;
+      height: 4.5rem;
+      max-width: 100%;
+      margin: auto;
+  }
+
+  .btn-login {
+      display: none;
+  }
+
+  .silk-img {
+      max-width: 7rem;
+      height: auto;
+  }
+
+  .icon-shopy {
+      font-size: 1.3rem;
+      color: #696b79;
+      margin-right: 1rem;
+      cursor: pointer;
+  }
+}
