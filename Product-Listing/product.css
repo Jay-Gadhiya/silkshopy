@@ -1,0 +1,131 @@
+@import "/CSS/navbar.css";
+@import "/CSS/footer.css";
+
+body {
+    position: relative;
+}
+
+a {
+    color: unset;
+}
+
+.page-container {
+    display: flex;
+    margin-top: 4rem;
+}
+
+.font-style {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.header-shopy {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+    z-index: 1;
+}
+
+/* ******************* aside part  ********************** */
+
+.aside-sec {
+    grid-area: aside;
+    width: 100%;
+    max-width: 17rem;
+    height: max-content;
+    padding-top: 1.5rem;
+    padding-left: 1.3rem;
+    padding-right: 1rem;
+    
+}
+
+.filter-clear-sec {
+    justify-content: space-between;
+}
+
+.btn-secondary-link {
+    text-transform: unset;
+    text-decoration: underline;
+}
+
+
+.btn-clear {
+    padding: .3rem;
+    font-size: 1rem;
+}
+
+
+.price-devide {
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: #7e7b7b;
+}
+
+.price-input {
+    width: 100%;
+}
+
+
+.sort-price-container {
+    flex-direction: column;
+}
+
+.sort-price-container .sort-by-label {
+    margin-bottom: 1rem;
+}
+
+.sort-price {
+    align-items: center;
+    margin-bottom: .7rem;
+}
+
+.sort-price label {
+    padding-left: .5rem;
+}
+
+/* ******************* main part  ********************** */
+
+.product-listing-container {
+    display: flex;
+    flex-direction: column;
+    padding-right: 0;
+    background-color: #f8f8f8;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.product-cards .card-wrapper {
+    margin-bottom: 1rem;
+}
+
+.product-main-heading {
+    margin-left: 1.45rem;
+    margin-top: 1.5rem;
+}
+
+.card-wrapper {
+    height: max-content;
+}
+
+.mar-l {
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+}
+
+.rating-wrapper {
+    margin-bottom: .4rem;
+}
+
+
+
+@media screen and (max-width : 854px) {
+    aside {
+        display: none;
+    }
+}
+

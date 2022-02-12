@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://nebulaui.netlify.app/CSS/global.css" />
+    <link rel="stylesheet" href="/Product-Listing/product.css" />
+    <title>Product</title>
+  </head>
+  <body>
+    <!--------------------- nav bar ---------------------------->
+    <header class="header-shopy shadow-box">
+      <nav class="nav-shopy flex-center">
+        <section class="brand-name">
+          <img
+            class="silk-img"
+            src="/images/silkshopy-name.jpeg"
+            alt=""
+          />
+        </section>
+
+        <div class="nav-items flex-center">
+          <section class="nav-input-box flex-center">
+            <button class="btn-input-box">
+              <i class="fas fa-search"></i>
+            </button>
+            <input class="input-shopy" type="text" placeholder="search" />
+          </section>
+          <section class="nav-icons flex-center">
+            <button class="btn btn-login btn-primary">Login</button>
+
+            <div class="nav-icons-item flex-center">
+              <span class="icon-shopy"><i class="fas fa-heart"></i></span>
+              <span class="below-text">Wishlist</span>
+            </div>
+
+            <div class="nav-icons-item flex-center">
+              <span class="icon-shopy"
+                ><i class="fas fa-shopping-cart"></i
+              ></span>
+              <span class="below-text">Cart</span>
+            </div>
+          </section>
+        </div>
+      </nav>
+    </header>
+
+    <!--------------------- sidebar and main ---------------------------->
+
+    <div class="page-container">
+        <aside class="aside-sec">
+            <section class="filter-clear-sec flex-center margin-bottom">
+                <span class="filter font-style">Filters</span>
+                <span class="clear"><button class="btn btn-clear btn-secondary-link"><a href="#">Clear</a></button></span>
+            </section>
+             <!--  price -->
+            <section class="price-container margin-bottom">
+                <label for="price" class="price font-style">Price</label>
+                <section class="price-devide flex-center">
+                    <span class="amount">5000</span>
+                    <span class="amount">10,000</span>
+                    <span class="amount">50,000</span>
+                </section>
+                <input type="range" min="5000" max="80000"  class="price-input">
+            </section>
+
+             <!--  Sort by -->
+
+            <section class="sort-price-container flex margin-bottom">
+
+                <label for="Sort by" class="font-style sort-by-label">Sort by</label>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="price" id="low-to-high">
+                    <label for="low-to-high">Price : Low to High</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="price" id="low-to-high">
+                    <label for="high-to-low">Price : High to Low</label>
+                </section>
+
+            </section>
+
+            <!-- category -->
+
+            <section class="sort-price-container flex margin-bottom">
+
+                <label for="Category" class="font-style sort-by-label">Category</label>
+
+                <section class="sort-price flex">
+                    <input type="checkbox" name="smartphones" id="smartphones">
+                    <label for="smartphones">Smartphones</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="checkbox" name="laptops" id="laptops">
+                    <label for="laptops">Laptops</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="checkbox" name="Headphones" id="Headphones">
+                    <label for="Headphones">Headphones</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="checkbox" name="gaming" id="gaming">
+                    <label for="gaming">Gaming</label>
+                </section>
+
+            </section>
+
+            <!-- Ratings -->
+
+            <section class="sort-price-container flex">
+
+                <label for="Sort by" class="font-style sort-by-label">Rating</label>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="rating" id="low-to-high">
+                    <label for="4 Star & above">4 Star & above</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="rating" id="low-to-high">
+                    <label for="3 Star & above">3 Star & above</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="rating" id="low-to-high">
+                    <label for="2 Star & above">2 Star & above</label>
+                </section>
+
+                <section class="sort-price flex">
+                    <input type="radio" name="rating" id="low-to-high">
+                    <label for="1 Star & above">1 Star & above</label>
+                </section>
+
+
+            </section>
+
+            
+        </aside>
+
+        <main class="product-listing-container">
+
+            <h2 class="product-main-heading margin-bottom">Products</h2>
+
+            <section class="product-cards">
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/iphone13pro.jpeg" alt="img" />
+                        <span class="badge-new hide">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">IPhone 13 Pro</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Sierra Blue</p>
+                        </div>
+
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">1,19,900</span>
+                        <span class="price text-strike-over">Rs.1,20,900</span>
+                        <span class="price text-discount">10%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/back-lap-img.jpeg" alt="img" />
+                        <span class="badge-new hide">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">ASUS VivoBook</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Ultra Ryzen 7 Octa Core 5700U</p>
+                        </div>
+
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">67,990</span>
+                        <span class="price text-strike-over">Rs.84,990</span>
+                        <span class="price text-discount">20%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/boat-650.jpeg" alt="img" />
+                        <span class="badge-new hide">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">boAt Rockerz 650</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>60 Hours Battery Backup</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">1,699</span>
+                        <span class="price text-strike-over">Rs.3,990</span>
+                        <span class="price text-discount">57%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/acer-7.jpeg" alt="img" />
+                        <span class="badge-new hide">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">acer Aspire 7</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Graphics/NVIDIA GeForce</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">52,990</span>
+                        <span class="price text-strike-over">Rs.89,999</span>
+                        <span class="price text-discount">41%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper ">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/sam-9a.jpeg" alt="img" />
+                        <span class="badge-new">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">Redmi 9A Sport</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Metallic Blue, 32 GB</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(243)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">7,798</span>
+                        <span class="price text-strike-over">Rs.7,998</span>
+                        <span class="price text-discount">2%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/lenovo-yoga.jpeg" alt="img" />
+                        <span class="badge-new">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">Lenovo Yoga Slim 7</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Intel EVO Core i7 11th Gen</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">1,22,990</span>
+                        <span class="price text-strike-over">Rs.1,22,990</span>
+                        <span class="price text-discount">26%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/sony-wh.jpeg" alt="img" />
+                        <span class="badge-new">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">SONY WH-CH510</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Blue, On the Ear</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">2,999</span>
+                        <span class="price text-strike-over">Rs.4,990</span>
+                        <span class="price text-discount">39%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+
+                <div class="card-wrapper">
+                    <span class="card-unavailable hide">Currently unavailable</span>
+                    <div class="card">
+                    <div class="card-image">
+                        <img class="img-cards" src="/images/hp-ryzen.jpeg" alt="img" />
+                        <span class="badge-new">New</span>
+                    </div>
+                    <div class="card-details">
+                        <div class="card-item">
+                        <h1 class="card-product-name">HP Pavilion Ryzen 5</h1>
+                        <span class="icon-card icon-heart"><i class="fas fa-heart"></i></span>
+                        </div>
+                        <div class="card-brief-detail">
+                        <p>Graphics/NVIDIA GeForce</p>
+                        </div>
+                        <div class="rating-wrapper">
+                            <section class="rat-star-icons">
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span class="rat-active"><i class="fas fa-star"></i></span>
+                              <span><i class="fas fa-star"></i></span>
+                            </section>
+                            
+                            <span class="rat-count">(2,515)</span>
+                        </div>
+                        <div class="card-price">
+                        Rs.
+                        <span class="price">59,990</span>
+                        <span class="price text-strike-over">Rs.76,020</span>
+                        <span class="price text-discount">21%</span>
+                        </div>
+                        <div class="card-btn">
+                        <button class="btn-card btn-primary-card">
+                            <span class="icon-card"><i class="fas fa-shopping-cart"></i></span>
+                            Add to Cart
+                        </button>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!--------------------- Footer ---------------------------->
+
+    <footer class="silkshopy-footer">
+        <section class="connect-msg flex-center">Connect With SilkShopy</section>
+        <section class="connect-icons flex-center">
+          <ul class="flex-center">
+            <li class="p-right">
+              <a
+                class="footer-icons"
+                href="https://github.com/Jay-Gadhiya/silkshopy"
+                ><i class="fab fa-github"></i>
+              </a>
+            </li>
+            <li class="p-right">
+              <a
+                class="footer-icons"
+                href="https://www.linkedin.com/in/jay-gadhiya-2009a6192/"
+                ><i class="fab fa-linkedin"></i
+              ></a>
+            </li>
+            <li>
+              <a class="footer-icons" href="https://twitter.com/JayGadhiya7"
+                ><i class="fab fa-twitter"></i
+              ></a>
+            </li>
+          </ul>
+        </section>
+        <section class="copyright-text flex-center">© 2022 SilkShopy</section>
+    </footer>
+
+  </body>
+</html>
