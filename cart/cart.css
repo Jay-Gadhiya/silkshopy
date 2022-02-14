@@ -1,0 +1,145 @@
+@import "/CSS/navbar.css";
+@import "/CSS/footer.css";
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top: 5rem;
+
+}
+
+/* ******************************* purchase area main ************************************* */
+
+.purchase-area {
+    width: 100%;
+    max-width: 60%;
+    margin: 2rem auto;
+}
+
+
+/********************* ||  Horizontal card *******************************/
+
+.card-horizontal-wrapper {
+    padding-right: 1rem;
+    padding-bottom: .5rem;
+    width: 100%;
+    max-width: 27rem;
+    box-shadow: 0px 1px 4px #888888;
+    margin: 1rem;
+}
+
+.horizontal-card {
+    justify-content: space-evenly;
+}
+
+.card-horizontal-image {
+    max-width: 10rem;
+}
+
+.card-btn-horizontal {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.btn-card {
+    margin-top: 1rem;
+    padding: .4rem;
+    font-size: .9rem;
+    width: 100%;
+
+}
+
+.btn {
+    box-shadow: none;
+}
+
+.quantity {
+    margin-top: .4rem;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.quantity label {
+    margin-right: 5px;
+}
+
+.quantity-btn {
+    padding: 2px 7px;
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 1rem;
+    border: 1px solid #c7c4c4;
+    border-radius: 7px;
+}
+
+.quantity-btn:hover {
+    background-color: var(--primary-color);
+    color: #fff;
+}
+
+.quantity-number {
+    padding: 3px 10px;
+    font-weight: 600;
+}
+
+
+/* ********************************* order price  ********************************* */
+.order-card-price {
+    flex-direction: column;
+    width: 100%;
+    margin: 1rem;
+    max-width: 20rem;
+}
+
+.separator {
+    width: 100%;
+    background-color: #b8b2b2;
+    height: 1px;
+    margin: .8rem 0;
+}
+
+.order-details {
+    justify-content: space-between;
+}
+
+.mr-top {
+    margin-top: .5rem;
+}
+
+
+@media screen and (max-width : 1000px) {
+
+    .purchase-area {
+        width: 100%;
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .card-horizontal-wrapper {
+        padding-right: 1rem;
+        padding-bottom: .5rem;
+        width: 100%;
+        max-width: 100%;
+        box-shadow: 0px 1px 4px #888888;
+        margin: 1rem;
+    }
+
+    .horizontal-img {
+        height: auto;
+        max-width: 4rem;
+    }
+
+    .horizontal-card {
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    .order-card-price {
+        width: 100%;
+        max-width: 100%;
+    }
+
+   
+}
