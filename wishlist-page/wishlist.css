@@ -1,0 +1,12 @@
+@import "/CSS/navbar.css";
+
+.my-cart-heading {
+    margin-top: 6rem;
+    text-align: center;
+}
+
+.products-in-wishlist {
+    margin-top: 2rem;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
