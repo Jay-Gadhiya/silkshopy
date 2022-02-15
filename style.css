@@ -1,4 +1,5 @@
 @import "/CSS/navbar.css";
+@import "/CSS/footer.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 
@@ -133,38 +134,6 @@ body {
 
 .feat-grid-cards {
   max-width: 80%;
-}
-
-/* ***********************  footer ************************************ */
-
-.silkshopy-footer {
-  background-color: #e2dede;
-  color: var(--default-black);
-  padding: 3rem;
-  margin-top: 2rem;
-}
-
-.p-right {
-  padding-right: 1.3rem;
-}
-
-.connect-icons ul li {
-  list-style: none;
-  font-size: 1.5rem;
-  cursor: pointer;
-}
-
-.footer-icons:hover {
-  color: var(--primary-color);
-}
-
-.copyright-text {
-  margin-top: 1rem;
-}
-
-.connect-msg {
-  font-size: 1.5rem;
-  margin-bottom: 1rem;
 }
 
 /* media querys */

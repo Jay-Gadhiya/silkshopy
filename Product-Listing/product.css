@@ -3,6 +3,7 @@
 
 body {
     position: relative;
+    font-family: 'Nunito', sans-serif;
 }
 
 a {
@@ -110,6 +111,15 @@ a {
 
 .card-wrapper {
     height: max-content;
+    background-color: #fff;
+}
+
+.card-product-name {
+    font-size: 1.2rem;
+}
+
+.card-price {
+    font-size: 1rem;
 }
 
 .mar-l {
