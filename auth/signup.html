@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="https://nebulaui.netlify.app/CSS/global.css">  
+    <link rel="stylesheet" href="/auth/auth.css">
+    <title>signup</title>
+</head>
+<body>
+    
+    <!--------------.------- nav bar ---------------------------->
+ <header class="header-shopy shadow-box"> 
+    <nav class="nav-shopy flex-center">
+        
+         <section class="brand-name"><img class="silk-img" src="/images/silkshopy-name.jpeg" alt="silkshopy"></section>
+ 
+         <div class="nav-items flex-center">
+             <section class="nav-input-box flex-center">
+                 <button class="btn-input-box">
+                     <i class="fas fa-search"></i>
+                 </button>
+                 <input class="input-shopy" type="text" placeholder="search">
+             </section>
+             <section class="nav-icons flex-center">
+                 <button class="btn btn-login btn-primary">Login</button>
+ 
+                 <div class="nav-icons-item flex-center">
+                     <span class="icon-shopy"><i class="fas fa-heart"></i></span>
+                     <span class="below-text">Wishlist</span>
+                 </div>
+ 
+                 <div class="nav-icons-item flex-center">
+                     <span class="icon-shopy"><i class="fas fa-shopping-cart"></i></span>
+                     <span class="below-text">Cart</span>
+                 </div>
+             </section>
+         </div>
+     </nav> 
+ </header>
+
+    <!---------------------- signup page ---------------------------->
+
+    <div class="auth-container">
+        <header class="heading-box flex-center">
+            <h2 class="auth-heading">Signup</h2>
+        </header>
+ 
+        <section class="input-container flex margin-bottom width-100">
+            <label for="email" class="auth-label">Email address</label>
+            <input class="auth-input" type="email" placeholder="Type email">
+        </section>
+ 
+        <section class="input-container flex margin-bottom width-100">
+         <label for="password" class="auth-label">Password</label>
+         <input class="auth-input" type="password" placeholder="Type password">
+        </section>
+ 
+         <section class="condition-box flex width-100 margin-bottom">
+            <div class="remember-me-box">
+                <input type="checkbox" name="remember me" id="remember-me">
+                <label for="remember me">I accept all Tearms and Conditions</label>
+            </div>
+
+         </section>
+ 
+         <section class="auth-btn width-100">
+            <button class="btn btn-primary">Create New Account</button>
+         </section>
+ 
+         <section class="auth-btn width-100">
+             <button class="btn btn-secondary-link"><a href="#">Already have an account</a></button>.
+         </section>
+    </div>
+
+
+</body>
+</html>
