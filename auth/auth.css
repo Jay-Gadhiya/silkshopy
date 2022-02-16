@@ -1,0 +1,109 @@
+@import "/CSS/navbar.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    color:var(--default-black);
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    height: 100vh;
+}
+
+.shadow-box {
+    box-shadow: 0px 0px 10px 4px rgb(0 0 0 / 5%);
+}
+
+/************************** login css **********************************/
+
+
+.auth-container {
+    width: 100%;
+    max-width: 27rem;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.heading-box {
+    margin:1rem 0;
+}
+
+.login-heading {
+    margin: 1.2rem 0;
+}
+
+.input-container {
+    flex-direction: column;
+    margin: auto;
+}
+
+.auth-input {
+    outline: none;
+    padding: .6rem;
+    border-radius: 4px;
+    border: 1px solid rgb(172, 168, 168);
+}
+
+
+.auth-name-input-cont {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.auth-name-box {
+    flex-direction: column;
+}
+
+.auth-name-box input {
+    width: 100%;
+}
+
+
+.margin-bottom {
+    margin-bottom: 1.2rem;
+}
+
+.width-100 {
+    width: 100%;
+    max-width: 90%;
+}
+
+.condition-box {
+    margin: auto;
+    margin-bottom: 1.5rem;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.remember-me-box label {
+    padding-left: .3rem;
+}
+
+.forgot-pass-link {
+    color: var(--primary-color);
+    font-size: .8rem;
+}
+
+.auth-btn {
+    margin:auto;
+}
+
+.btn {
+    width: 100%;
+    text-transform: unset;
+    border-radius: 2px;
+    padding: .6rem;
+    font-weight: 700;
+}
+
+.btn-secondary-link {
+    font-weight: normal;
+}
