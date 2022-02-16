@@ -107,3 +107,28 @@ body {
 .btn-secondary-link {
     font-weight: normal;
 }
+
+
+/* logout page */
+
+.logout-container {
+    padding-top: 6rem;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.logout-container i {
+   font-size: 3rem;
+   color: var(--success-color);
+}
+
+.logout-text {
+    font-size: 1.5rem;
+    color: var(--success-color);
+}
+
+.back-to-home-link {
+    color: var(--primary-color);
+}
