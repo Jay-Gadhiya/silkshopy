@@ -31,7 +31,11 @@ body {
 }
 
 .heading-box {
-    margin:2rem 0;
+    margin:1rem 0;
+}
+
+.login-heading {
+    margin: 1.2rem 0;
 }
 
 .input-container {
@@ -46,13 +50,29 @@ body {
     border: 1px solid rgb(172, 168, 168);
 }
 
+
+.auth-name-input-cont {
+    flex-direction: row;
+    gap: 1rem;
+}
+
+
+.auth-name-box {
+    flex-direction: column;
+}
+
+.auth-name-box input {
+    width: 100%;
+}
+
+
 .margin-bottom {
-    margin-bottom: 1.5rem;
+    margin-bottom: 1.2rem;
 }
 
 .width-100 {
     width: 100%;
-    max-width: 80%;
+    max-width: 90%;
 }
 
 .condition-box {
@@ -74,7 +94,6 @@ body {
 
 .auth-btn {
     margin:auto;
-    margin-bottom: 1rem;
 }
 
 .btn {
