@@ -12,34 +12,36 @@
 <body>
 
     <!--------------.------- nav bar ---------------------------->
- <header class="header-shopy shadow-box"> 
-    <nav class="nav-shopy flex-center">
-        
-         <section class="brand-name"><img class="silk-img" src="/images/silkshopy-name.jpeg" alt="silkshopy"></section>
- 
-         <div class="nav-items flex-center">
-             <section class="nav-input-box flex-center">
-                 <button class="btn-input-box">
-                     <i class="fas fa-search"></i>
-                 </button>
-                 <input class="input-shopy" type="text" placeholder="search">
-             </section>
-             <section class="nav-icons flex-center">
-                 <button class="btn btn-login btn-primary">Login</button>
- 
-                 <div class="nav-icons-item flex-center">
-                     <span class="icon-shopy"><i class="fas fa-heart"></i></span>
-                     <span class="below-text">Wishlist</span>
-                 </div>
- 
-                 <div class="nav-icons-item flex-center">
-                     <span class="icon-shopy"><i class="fas fa-shopping-cart"></i></span>
-                     <span class="below-text">Cart</span>
-                 </div>
-             </section>
-         </div>
-     </nav> 
- </header>
+    <header class="header-shopy shadow-box">
+        <nav class="nav-shopy flex-center">
+          <section class="brand-name"><a href="/index.html"><img class="silk-img" src="/images/silkshopy-name.jpeg" alt="silk-img"/></a>
+          </section>
+  
+          <div class="nav-items flex-center">
+            <section class="nav-input-box flex-center">
+              <button class="btn-input-box">
+                <i class="fas fa-search"></i>
+              </button>
+              <input class="input-shopy" type="text" placeholder="search" />
+            </section>
+            <section class="nav-icons flex-center">
+              <button class="btn btn-login btn-primary"><a class="active-link" href="/auth/login.html">Login</a></button>
+  
+              <div class="nav-icons-item flex-center">
+                <span class="icon-shopy"><a href="/wishlist-page/wishlist.html"><i class="fas fa-heart"></i></a></span>
+                <span class="below-text">Wishlist</span>
+              </div>
+  
+              <div class="nav-icons-item flex-center">
+                <span class="icon-shopy">
+                  <a href="/cart/cart.html"><i class="fas fa-shopping-cart"></i></a>
+                </span>
+                <span class="below-text">Cart</span>
+              </div>
+            </section>
+          </div>
+        </nav>
+    </header>
     
     <!--------------.------- login part ---------------------------->
 
@@ -70,11 +72,11 @@
         </div>
 
         <div class="auth-btn width-100">
-           <button class="btn btn-primary">Login</button>
+           <button class="btn btn-primary"><a href="/auth/logout.html" class="active-link">Login</a></button>
         </div>
 
         <div class="auth-btn width-100">
-            <button class="btn btn-secondary-link"><a href="#">Create New Account</a></button>.
+            <button class="btn btn-secondary-link"><a href="/auth/signup.html">Create New Account</a></button>.
         </div>
    </section>
 

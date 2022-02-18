@@ -74,9 +74,12 @@ body {
 
 .icon-shopy {
   font-size: 1.3rem;
-  color: #696b79;
   margin-right: 1.6rem;
   cursor: pointer;
+}
+
+.icon-shopy a {
+  color: #696b79;
 }
 
 .nav-icons-item {
@@ -107,6 +110,10 @@ body {
   background: none;
   border: none;
   color: #696b79;
+}
+
+.active-link {
+  color: #fff;
 }
 
 @media screen and (max-width : 820px) {
