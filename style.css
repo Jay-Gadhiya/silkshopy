@@ -163,12 +163,12 @@ body {
     height: auto;
     margin: auto;
     position: relative;
+    margin-top: 4.5rem;
   }
 
   .banner-image {
     max-inline-size: 100%;
     block-size: auto;
-    /* object-fit: contain; */
     height: auto;
     width: 100%;
   }
@@ -176,9 +176,9 @@ body {
   .btn-image {
     position: absolute;
     bottom: 15%;
-    left: 24%;
+    left: 23%;
     text-transform: unset;
-    padding: 0.2rem 0.5rem;
+    padding: 0.3rem 0.5rem;
     transition: unset;
     font-size: 0.6rem;
     box-shadow: none;
@@ -201,6 +201,7 @@ body {
   .text-overlay {
     font-size: 1rem;
   }
+
 }
 
 @media screen and (max-width: 576px) {
@@ -208,4 +209,5 @@ body {
     width: 100%;
     grid-template-columns: 1fr;
   }
+
 }
