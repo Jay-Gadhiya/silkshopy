@@ -10,3 +10,9 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
+
+@media screen and (max-width : 950px) {
+    .card-wrapper {
+        margin-bottom: 1rem;
+    }
+}
