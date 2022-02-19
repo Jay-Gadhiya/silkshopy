@@ -93,5 +93,5 @@
 
 <a name="acknowledgement"/>
 
-##🎗️ Acknowledgement
+## 🎗️ Acknowledgement
 * I want to tell thanks to my mentor [Tanay Pratap](https://twitter.com/tanaypratap), Thank you for inspiring, caring, listening, guiding and shaping our future.
